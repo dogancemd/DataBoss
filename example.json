@@ -1,0 +1,25 @@
+{
+    "source_db":
+        {
+            "db_name": "source_db",
+            "db_user": "postgres_user",
+            "db_password": "postgres_password",
+            "db_host_name": "postgresql",
+            "db_port": 5432
+        },
+    "destination_db":
+        {
+            "db_name": "destination_db",
+            "db_user": "postgres_user",
+            "db_password": "postgres_password",
+            "db_host_name": "postgresql",
+            "db_port": 5432
+        },
+    "tables":[
+        {
+            "table_name": "source_table",
+            "mode": "incrementing"
+        }
+    ]
+
+}

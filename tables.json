@@ -1,0 +1,25 @@
+{
+    "source_db":
+        {
+            "db_name": str,
+            "db_user": str,
+            "db_password": str,
+            "db_host_name": str,
+            "db_port": int
+        },
+    "destination_db":
+        {
+            "db_name": str,
+            "db_user": str,
+            "db_password": str,
+            "db_host_name": str,
+            "db_port": int
+        },
+    "tables":[
+        {
+            "table_name": str,
+            "mode": "incrementing"
+        }
+    ]
+
+}
