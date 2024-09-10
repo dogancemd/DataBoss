@@ -10,6 +10,7 @@ def create_db_source(table_name, db_name="source_db", db_user="postgres_user", d
         "connection.user": db_user,
         "connection.password": db_password,
         "mode": mode,
+        f"{mode}.column.name" : column_name,
         "table.whitelist": table_name
         }
     }
