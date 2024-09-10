@@ -1,5 +1,5 @@
 SETTING UP DOCKER:
-    > docker compose up
+    run "docker compose up"
     Possible errors:
         -org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists
             Trying after a minute or pulling images again seems to solve the issue.
