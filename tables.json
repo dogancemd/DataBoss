@@ -18,7 +18,8 @@
     "tables":[
         {
             "table_name": str,
-            "mode": "incrementing"
+            "mode": "incrementing" | "timestamp",
+            "column_name": Optional[str]
         }
     ]
 
