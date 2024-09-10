@@ -14,6 +14,7 @@ def create_db_source(table_name, db_name="source_db", db_user="postgres_user", d
         "table.whitelist": table_name
         }
     }
+    print(config)
     response = requests.post("http://localhost:8083/connectors", json=config)
     if int(response.status_code/100) != 2:
         raise Exception(response.json())
